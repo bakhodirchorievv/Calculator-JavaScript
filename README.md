@@ -1,1 +1,1 @@
-bakhodirchorievv.github.io/Calculator-JavaScript
+https://bakhodirchorievv.github.io/Calculator-JavaScript
