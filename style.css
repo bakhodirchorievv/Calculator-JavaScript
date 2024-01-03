@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(images/bckg.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.wrapper {
+    font-family: sans-serif;
+    margin: 0 550px;
+    display: inline-block;
+    padding: 25px;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.4);
+    width: 420px;
+    position: relative;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.wrapper-child {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+}
+p {
+    padding-top: 5px;
+    font-size: 50px;
+    font-weight: 500;
+    text-align: center;
+    width: 70px;
+    height: 70px;
+    margin-top: 20px;
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+    user-select: none;
+    cursor: pointer;
+}
+p:hover {
+    background-color: #333;
+}
+.add-p {
+    background-color: #333;
+}
+.add-p {
+    scale: 0.96;
+}
+p:active {
+    scale: 0.96;
+}
+.special{
+    padding: 0 0;
+}
+.special2 {
+    padding-top: 17px;
+}
+.red-colored {
+    color: red;
+}
+.green-colored {
+    color: lime;
+}
+.green-back {
+    background-color: green;
+    padding-top: 6px;
+}
+.green-back:hover {
+    background-color: darkgreen;
+}
+.yellow {
+    color: red;
+    padding-bottom: 19pxpx;
+    border-radius: 100%;
+    width: 55px;
+    height: 55px;
+    font-size: 40px;
+    margin-left: auto;
+    margin-right: 8px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    border: 2px solid red;
+}
+.content {
+    margin-top: 15px;
+    padding: 13px 3px 0px 0px;
+    font-weight: 550;
+    overflow: hidden;
+    width: 350px;
+    color: black; 
+    text-align: end;
+    height: 60px;
+    user-select: none;
+    background-color: white;
+    border-radius: 10px;
+}
+.btn {
+    display: block;
+    width: 420px;
+    border: none;
+    background: none;
+    margin-left: 550px;
+    margin-top: 40px;
+    font-family: sans-serif;
+    font-size: 18px;
+    background-color: black;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    color: white;
+    padding: 3px 0;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: #333;
+}
+.btn:active {
+    scale: 0.99;
+}
+.top-text {
+    position: absolute;
+    right: 107px;
+    top: -30px;
+    font-size: 25px;
+    font-family: sans-serif;
+    color: black;
+    text-align: end;
+    transition: 0.05s;
+    z-index: 0;
+}
+.add-to-top-text {
+    position: absolute;
+    right: 107px;
+    top: 3px;
+    font-size: 25px;
+    font-family: sans-serif;
+    color: black;
+    text-align: end;
+    transition: 0.05s;
+    z-index: 1;
+}
+
