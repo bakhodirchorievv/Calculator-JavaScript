@@ -142,3 +142,16 @@ p:active {
     z-index: 1;
 }
 
+@media (max-width: 720px) {
+    body {
+        max-width: 720px;
+    }
+    .wrapper {
+        margin-left: 150px;
+        margin-right: 0px;
+    }
+    .btn {
+        margin-left: 150px;
+        margin-right: 0px;
+    }
+}
