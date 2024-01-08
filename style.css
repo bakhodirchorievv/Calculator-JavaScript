@@ -143,18 +143,23 @@ p:active {
 }
 
 @media only screen and (max-width: 600px) and (min-width:320px) {
+    body {
+        height: 100vh;
+    }
     .wrapper {
         margin: 0;
-        width: 100%;
+        width: 90%;
         overflow: hidden;
+        margin-left: 5%;
     }
     .wrapper-child {
         gap: 10px;
     }
 
     .btn {
-        margin: 0;
-        width: 100%;
+        margin-top: 5%;
+        margin-left: 5%;
+        width: 90%;
     }
 
     .top-text, .add-to-top-text {
@@ -163,14 +168,17 @@ p:active {
     }
 }
 @media only screen and (min-width:600px) and (max-width:769px) {
+    body {
+        height: 100vh;
+    }
     .wrapper {
-        margin-left: 10%;
-        width: 80%;
+        margin-left: 15%;
+        width: 70%;
         overflow: hidden;
     }
     .btn {
-        width: 80%;
-        margin-left: 10%;
+        width: 70%;
+        margin-left: 15%;
     }
     .top-text, .add-to-top-text {
         font-size: 25px;
