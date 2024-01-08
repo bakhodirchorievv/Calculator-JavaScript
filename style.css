@@ -142,15 +142,15 @@ p:active {
     z-index: 1;
 }
 
-@media only screen and (max-width: 600px) and (min-width:320px) {
+@media only screen and (max-width: 570px) and (min-width:320px) {
     body {
         height: 100vh;
     }
     .wrapper {
         margin: 0;
-        width: 90%;
+        width: 98%;
         overflow: hidden;
-        margin-left: 5%;
+        margin-left: 1%;
     }
     .wrapper-child {
         gap: 10px;
@@ -158,8 +158,8 @@ p:active {
 
     .btn {
         margin-top: 5%;
-        margin-left: 5%;
-        width: 90%;
+        margin-left: 1%;
+        width: 98%;
     }
 
     .top-text, .add-to-top-text {
@@ -167,7 +167,7 @@ p:active {
         right: 23%;
     }
 }
-@media only screen and (min-width:600px) and (max-width:769px) {
+@media only screen and (min-width:570px) and (max-width:769px) {
     body {
         height: 100vh;
     }
