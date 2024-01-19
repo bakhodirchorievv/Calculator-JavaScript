@@ -86,7 +86,7 @@ p:active {
 }
 .content {
     margin-top: 15px;
-    padding: 13px 3px 0px 0px;
+    padding: 16px 3px 0px 0px;
     font-weight: 550;
     overflow: hidden;
     width: 350px;
@@ -96,6 +96,7 @@ p:active {
     user-select: none;
     background-color: white;
     border-radius: 10px;
+    font-size: 26px;
 }
 .btn {
     display: block;
@@ -123,7 +124,7 @@ p:active {
     position: absolute;
     right: 107px;
     top: -30px;
-    font-size: 25px;
+    font-size: 18px;
     font-family: sans-serif;
     color: black;
     text-align: end;
@@ -134,7 +135,7 @@ p:active {
     position: absolute;
     right: 107px;
     top: 3px;
-    font-size: 25px;
+    font-size: 18px;
     font-family: sans-serif;
     color: black;
     text-align: end;
@@ -163,7 +164,6 @@ p:active {
     }
 
     .top-text, .add-to-top-text {
-        font-size: 25px;
         right: 23%;
     }
 }
@@ -181,7 +181,6 @@ p:active {
         margin-left: 15%;
     }
     .top-text, .add-to-top-text {
-        font-size: 25px;
         right: 30%;
     }
 }

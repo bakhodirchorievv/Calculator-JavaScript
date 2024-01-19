@@ -52,7 +52,7 @@ function rZero () {
     }
 }
 function rDiscard () {
-    if (content.textContent.length > 16) {
+    if (content.textContent.length > 19) {
         content.textContent = content.textContent.slice(0, -1);
     }
 }
