@@ -188,7 +188,7 @@ nine.addEventListener("click", function() {
 plus.addEventListener("click", function() {
     if (!content.textContent.endsWith("+") && content.textContent && !content.textContent.endsWith("(")
     && !content.textContent.endsWith("-") && !content.textContent.endsWith(".") 
-    && !content.textContent.endsWith("*") && !content.textContent.endsWith("/")) {
+    && !content.textContent.endsWith("*") && !content.textContent.endsWith("/") && !content.textContent.endsWith("%")) {
         content.textContent += "+"
     }
     rDiscard()
@@ -196,7 +196,7 @@ plus.addEventListener("click", function() {
 divide.addEventListener("click", function() {
     if (!content.textContent.endsWith("/") && content.textContent && !content.textContent.endsWith("+") 
     && !content.textContent.endsWith("-") && !content.textContent.endsWith(".") 
-    && !content.textContent.endsWith("*") && !content.textContent.endsWith("(")) {
+    && !content.textContent.endsWith("*") && !content.textContent.endsWith("(") && !content.textContent.endsWith("%")) {
         content.textContent += "/"
     }
     rDiscard()
@@ -204,7 +204,7 @@ divide.addEventListener("click", function() {
 multiply.addEventListener("click", function() {
     if (!content.textContent.endsWith("*") && content.textContent && !content.textContent.endsWith("+") 
     && !content.textContent.endsWith("-") && !content.textContent.endsWith(".") 
-    && !content.textContent.endsWith("/") && !content.textContent.endsWith("(")) {
+    && !content.textContent.endsWith("/") && !content.textContent.endsWith("(") && !content.textContent.endsWith("%")) {
         content.textContent += "*"
     }
     rDiscard()
@@ -212,7 +212,7 @@ multiply.addEventListener("click", function() {
 minus.addEventListener("click", function() {
     if (!content.textContent.endsWith("-") && content.textContent && !content.textContent.endsWith("+") 
     && !content.textContent.endsWith(".") && !content.textContent.endsWith("(")
-    && !content.textContent.endsWith("*") && !content.textContent.endsWith("/")) {
+    && !content.textContent.endsWith("*") && !content.textContent.endsWith("/") && !content.textContent.endsWith("%")) {
         content.textContent += "-"
     } 
     rDiscard()
@@ -221,7 +221,7 @@ plusOrMinus.addEventListener("click", function() {
     rZero()
     if (!content.textContent.endsWith("-") && !content.textContent.endsWith("+") 
     && !content.textContent.endsWith(".") 
-    && !content.textContent.endsWith("*") && !content.textContent.endsWith("/")) {
+    && !content.textContent.endsWith("*") && !content.textContent.endsWith("/") && !content.textContent.endsWith("%")) {
         content.textContent += "-"
     }
     rDiscard()
@@ -454,7 +454,7 @@ document.addEventListener("keydown", function(event) {
     } else if (event.key == "+") {
         if (!content.textContent.endsWith("+") && content.textContent && !content.textContent.endsWith("(")
         && !content.textContent.endsWith("-") && !content.textContent.endsWith(".") 
-        && !content.textContent.endsWith("*") && !content.textContent.endsWith("/")) {
+        && !content.textContent.endsWith("*") && !content.textContent.endsWith("/") && !content.textContent.endsWith("%")) {
             content.textContent += "+"
         }
         plus.classList.add("add-p")
@@ -465,7 +465,7 @@ document.addEventListener("keydown", function(event) {
     } else if (event.key == "-") {
         if (!content.textContent.endsWith("-") && !content.textContent.endsWith("+") 
         && !content.textContent.endsWith(".") 
-        && !content.textContent.endsWith("*") && !content.textContent.endsWith("/")) {
+        && !content.textContent.endsWith("*") && !content.textContent.endsWith("/") && !content.textContent.endsWith("%")) {
             content.textContent += "-"
         }
         minus.classList.add("add-p")
@@ -476,7 +476,7 @@ document.addEventListener("keydown", function(event) {
     } else if (event.key == "/") {
         if (!content.textContent.endsWith("/") && content.textContent && !content.textContent.endsWith("+") 
         && !content.textContent.endsWith("-") && !content.textContent.endsWith(".") 
-        && !content.textContent.endsWith("*") && !content.textContent.endsWith("(")) {
+        && !content.textContent.endsWith("*") && !content.textContent.endsWith("(") && !content.textContent.endsWith("%")) {
             content.textContent += "/"
         }
         divide.classList.add("add-p")
@@ -487,7 +487,7 @@ document.addEventListener("keydown", function(event) {
     } else if (event.key == "*") {
         if (!content.textContent.endsWith("-") && content.textContent && !content.textContent.endsWith("+") 
         && !content.textContent.endsWith(".") && !content.textContent.endsWith("(")
-        && !content.textContent.endsWith("*") && !content.textContent.endsWith("/")) {
+        && !content.textContent.endsWith("*") && !content.textContent.endsWith("/") && !content.textContent.endsWith("%")) {
             content.textContent += "*"
         }
         multiply.classList.add("add-p")
